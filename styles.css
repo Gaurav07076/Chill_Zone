@@ -1,0 +1,45 @@
+body {
+  text-align: center;
+  background: url(image/background2.jpg);
+  min-height: 100vh;
+  max-height: fit-content;
+  background-size: 100vw 100vh;
+
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.5rem;
+  margin: 5%;
+  color: #FEF2BF;
+}
+
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.container{
+  margin: 20px;
+}
+
+.image{
+  opacity: 0.8;
+}
+
+.text{
+  
+  width: 250px;
+  height: 130px;
+  background-color: #6F1AB6;
+  opacity: 0.8;
+  color: #f5eaba;
+  text-align: center;
+  font-family: 'Kalam', cursive; 
+  font-size: 1.10rem;
+  border-radius: 12px;
+
+  
+}
